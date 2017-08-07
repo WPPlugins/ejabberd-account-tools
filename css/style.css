@@ -1,0 +1,116 @@
+/*
+	Copyright (c) 2015-2016 Krzysztof Grochocki
+
+	This file is part of Ejabberd Account Tools.
+
+	Ejabberd Account Tools is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation; either version 3, or
+	(at your option) any later version.
+
+	Ejabberd Account Tools is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with GNU Radio. If not, see <http://www.gnu.org/licenses/>.
+*/
+
+/* Blocks style */
+.ejabat #login, .ejabat #host, .ejabat #password, .ejabat #password_retyped, .ejabat #email{
+margin-bottom:1.5em;
+display:block;
+max-width:302px;
+width:100%;
+}
+/* Inputs style */
+.ejabat input[type="text"], .ejabat input[type="password"], .ejabat input[type="email"], .ejabat select{
+width:100%;
+}
+/* Invalid input */
+input.invalid{
+border:1px solid #f00 !important;
+}
+div.invalid{
+border:1px solid #f00 !important;
+display:inline-block;
+margin:-1px;
+}
+/* Tip */
+.tip{
+position:absolute;
+font-size:1em;
+display:block;
+margin:0 4px;
+}
+.tip:not(:empty){
+margin-bottom:-1.5em;
+}
+.recaptcha.tip:not(:empty){
+position:inherit;
+margin:-5px 4px 0;
+}
+.tip.invalid{
+color:#f00;
+}
+/* Password strength */
+input.too-weak, input.very-weak{
+background:linear-gradient(90deg, #FFA0A0 25%, #FFF 25%) !important;
+border-color:#F04040 !important;
+}
+input.weak{
+background:linear-gradient(90deg, #FFB78C 50%, #FFF 50%) !important;
+border-color:#FF853C !important;
+}
+input.good{
+background:linear-gradient(90deg, #FFEC8B 75%, #FFF 75%) !important;
+}
+input.strong{
+background-color:#C3FF88 !important;
+}
+/* Spinner */
+#spinner{
+margin-left:4px;
+font-size:14px;
+}
+/* Response */
+#response{
+margin-top:1.5em;
+padding:1em 1.5em;
+}
+.ejabat-form-success{
+border:1px solid #D6E9C6;
+background-color:#DFF0D8;
+color:#3C763D;
+}
+.ejabat-form-error{
+border:1px solid #F7D8DD;
+background-color:#FBEEED;
+color:#D9534F;
+}
+.ejabat-form-blocked{
+border:1px solid #FAEBCC;
+background-color:#FCF8E3;
+color:#8A6D3B;
+}
+.ejabat-display-none{
+display:none;
+}
+/* Information */
+.ejabat-info{
+display:inline-block;
+margin-bottom:1.5em;
+padding:1em 1.5em;
+}
+.ejabat-no-margin{
+margin:0;
+}
+/* Form loader */
+.loader-inner{
+text-align:center;
+}
+.line-scale > div{
+height:25px;
+background-color:#EFEEEE;
+}

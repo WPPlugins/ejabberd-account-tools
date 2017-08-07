@@ -1,0 +1,865 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ejabberd Account Tools\n"
+"POT-Creation-Date: 2017-05-03 19:25+0200\n"
+"PO-Revision-Date: 2017-05-03 19:25+0200\n"
+"\"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/admin.php:65 includes/admin.php:76
+msgid "Settings"
+msgstr ""
+
+#: includes/admin.php:72
+msgid "Ejabberd Account Tools"
+msgstr ""
+
+#: includes/admin.php:83
+msgid "Tools"
+msgstr ""
+
+#: includes/admin.php:164
+msgid "Ejabberd Account Tools - Settings"
+msgstr ""
+
+#: includes/admin.php:166
+#, php-format
+msgid ""
+"Registration is temporarily disabled, click <a href=\"%s\">here</a> to turn "
+"it on again."
+msgstr ""
+
+#: includes/admin.php:169
+#, php-format
+msgid ""
+"Form to change private email address is temporarily disabled, click <a href="
+"\"%s\">here</a> to turn it on again."
+msgstr ""
+
+#: includes/admin.php:172
+#, php-format
+msgid ""
+"Form to reset password is temporarily disabled, click <a href=\"%s\">here</"
+"a> to turn it on again."
+msgstr ""
+
+#: includes/admin.php:175
+#, php-format
+msgid ""
+"Form to delete account is temporarily disabled, click <a href=\"%s\">here</"
+"a> to turn it on again."
+msgstr ""
+
+#: includes/admin.php:185
+msgid "General"
+msgstr ""
+
+#: includes/admin.php:189
+msgid "Default hostname"
+msgstr ""
+
+#: includes/admin.php:190
+msgid "Determines XMPP vhost name which will be default used in all forms."
+msgstr ""
+
+#: includes/admin.php:193
+msgid "Sender email address"
+msgstr ""
+
+#: includes/admin.php:194
+msgid "Sender name"
+msgstr ""
+
+#: includes/admin.php:195
+msgid ""
+"It will be used in all email notification, eg. when resetting password or "
+"confirming new private email address."
+msgstr ""
+
+#: includes/admin.php:198
+msgid "Show information hints on forms"
+msgstr ""
+
+#: includes/admin.php:199
+#, php-format
+msgid "To support multi-language use %s filter."
+msgstr ""
+
+#: includes/admin.php:202 includes/admin.php:231 includes/admin.php:457
+#: includes/admin.php:477 includes/change_email.php:98
+#: includes/delete_account.php:106 includes/register.php:178
+#: includes/reset_password.php:134
+msgid "Login"
+msgstr ""
+
+#: includes/admin.php:202 includes/register.php:30
+msgid "At least 3 and up to 32 characters, only letters and numbers"
+msgstr ""
+
+#: includes/admin.php:205 includes/admin.php:232 includes/change_email.php:102
+#: includes/delete_account.php:78 includes/delete_account.php:110
+#: includes/register.php:183 includes/reset_password.php:103
+msgid "Password"
+msgstr ""
+
+#: includes/admin.php:205 includes/register.php:31
+#: includes/reset_password.php:30
+msgid "Required at least good password"
+msgstr ""
+
+#: includes/admin.php:208 includes/admin.php:460
+msgid "Email"
+msgstr ""
+
+#: includes/admin.php:208 includes/register.php:32
+msgid "Required only for password recovery"
+msgstr ""
+
+#: includes/admin.php:212
+msgid "Minimum required password strength"
+msgstr ""
+
+#: includes/admin.php:212
+msgid "Disabled"
+msgstr ""
+
+#: includes/admin.php:212
+msgid "Very weak"
+msgstr ""
+
+#: includes/admin.php:212
+msgid "Weak"
+msgstr ""
+
+#: includes/admin.php:212
+msgid "Good"
+msgstr ""
+
+#: includes/admin.php:212
+msgid "Strong"
+msgstr ""
+
+#: includes/admin.php:215
+msgid "Block disposable email addresses in forms"
+msgstr ""
+
+#: includes/admin.php:216
+#, php-format
+msgid "Use %s to validate email addresses."
+msgstr ""
+
+#: includes/admin.php:222
+msgid "ReST API"
+msgstr ""
+
+#: includes/admin.php:226
+msgid "ReST API url"
+msgstr ""
+
+#: includes/admin.php:227
+msgid "Enter URL defined for module mod_http_api in ejabberd settings."
+msgstr ""
+
+#: includes/admin.php:230
+msgid "Authorization"
+msgstr ""
+
+#: includes/admin.php:233
+msgid "Authorization is required to connect with the ReST API."
+msgstr ""
+
+#: includes/admin.php:236
+msgid "Set last activity information"
+msgstr ""
+
+#: includes/admin.php:239
+msgid "Connection timeout with ReST API"
+msgstr ""
+
+#: includes/admin.php:242
+msgid "Connection retry limit with ReST API"
+msgstr ""
+
+#: includes/admin.php:248
+msgid "Registration"
+msgstr ""
+
+#: includes/admin.php:252
+msgid "Additional host names available in registration"
+msgstr ""
+
+#: includes/admin.php:253
+msgid ""
+"Fill only if you want to allow registration on other hosts than the default. "
+"Hosts must be separated by a space."
+msgstr ""
+
+#: includes/admin.php:256
+msgid "Regexp for allowed login"
+msgstr ""
+
+#: includes/admin.php:259
+msgid "Regexp for blocked login"
+msgstr ""
+
+#: includes/admin.php:262
+msgid "Send welcome message"
+msgstr ""
+
+#: includes/admin.php:264 includes/admin.php:480
+msgid "Subject"
+msgstr ""
+
+#: includes/admin.php:265 includes/admin.php:481
+msgid "Body"
+msgstr ""
+
+#: includes/admin.php:266
+#, php-format
+msgid ""
+"Plain text only, shortcodes allowed. To support multi-language use %s filter."
+msgstr ""
+
+#: includes/admin.php:270
+msgid "Registration watcher"
+msgstr ""
+
+#: includes/admin.php:271
+msgid ""
+"Sends information about new registration to specified JID. Leave field empty "
+"if disabled."
+msgstr ""
+
+#: includes/admin.php:274
+msgid "Registration timeout"
+msgstr ""
+
+#: includes/admin.php:274 includes/admin.php:282 includes/admin.php:296
+#: includes/admin.php:310 includes/admin.php:314 includes/admin.php:328
+msgid "seconds"
+msgstr ""
+
+#: includes/admin.php:275
+msgid ""
+"Limits the frequency of registration from a given IP address. To disable "
+"this limitation enter 0."
+msgstr ""
+
+#: includes/admin.php:278
+msgid "Turn on the two-step registration"
+msgstr ""
+
+#: includes/admin.php:279
+msgid ""
+"Registration must be confirmed by activation link sent on private email "
+"address."
+msgstr ""
+
+#: includes/admin.php:282
+msgid "Validity period of the activation link"
+msgstr ""
+
+#: includes/admin.php:283
+msgid ""
+"Determines validity period of the activation link. To disable this "
+"limitation enter 0."
+msgstr ""
+
+#: includes/admin.php:288
+msgid "Temporarily disable the registration for not logged-in users"
+msgstr ""
+
+#: includes/admin.php:292
+msgid "Changing email"
+msgstr ""
+
+#: includes/admin.php:296 includes/admin.php:310 includes/admin.php:328
+msgid "Validity period of the confirmation link"
+msgstr ""
+
+#: includes/admin.php:297 includes/admin.php:311 includes/admin.php:329
+msgid ""
+"Determines validity period of the confirmation link. To disable this "
+"limitation enter 0."
+msgstr ""
+
+#: includes/admin.php:302
+msgid ""
+"Temporarily disable the form to change private email address for not logged-"
+"in users"
+msgstr ""
+
+#: includes/admin.php:306
+msgid "Resetting password"
+msgstr ""
+
+#: includes/admin.php:314
+msgid "Limit verification to"
+msgstr ""
+
+#: includes/admin.php:314
+msgid "within"
+msgstr ""
+
+#: includes/admin.php:315
+msgid ""
+"Determines the maximum number of verification within the specified time. To "
+"disable this limitation enter 0."
+msgstr ""
+
+#: includes/admin.php:320
+msgid "Temporarily disable the form to reset password for not logged-in users"
+msgstr ""
+
+#: includes/admin.php:324
+msgid "Deleting account"
+msgstr ""
+
+#: includes/admin.php:334
+msgid "Temporarily disable the form to delete account for not logged-in users"
+msgstr ""
+
+#: includes/admin.php:337
+msgid "Save settings"
+msgstr ""
+
+#: includes/admin.php:345 includes/admin.php:497
+msgid "Rate plugin"
+msgstr ""
+
+#: includes/admin.php:347 includes/admin.php:499
+msgid "If you like this plugin, please give it a nice review"
+msgstr ""
+
+#: includes/admin.php:352 includes/admin.php:504
+msgid "Donations"
+msgstr ""
+
+#: includes/admin.php:354 includes/admin.php:506
+msgid ""
+"If you like this plugin, please send a donation to support its development "
+"and maintenance"
+msgstr ""
+
+#: includes/admin.php:360
+msgid "Usage information"
+msgstr ""
+
+#: includes/admin.php:362
+#, php-format
+msgid ""
+"Make sure that you have the latest version of ejabberd - plugin requires at "
+"least ejabberd %s."
+msgstr ""
+
+#: includes/admin.php:363
+msgid ""
+"Check that module mod_http_api in ejabberd is properly configured. Example "
+"configuration:"
+msgstr ""
+
+#: includes/admin.php:392
+msgid ""
+"Then configure ReST API url and authorization data, finally put shortcodes "
+"on some page."
+msgstr ""
+
+#: includes/admin.php:394
+msgid "Form to register a new account."
+msgstr ""
+
+#: includes/admin.php:395
+msgid "Form to change / add private email address."
+msgstr ""
+
+#: includes/admin.php:396
+msgid "Form to reset account password."
+msgstr ""
+
+#: includes/admin.php:397
+msgid "Form to delete account."
+msgstr ""
+
+#: includes/admin.php:411
+msgid "Ejabberd Account Tools - Tools"
+msgstr ""
+
+#: includes/admin.php:452
+msgid "Private email address"
+msgstr ""
+
+#: includes/admin.php:454
+msgid ""
+"Here you can change or delete the private email address for the specified "
+"XMPP account."
+msgstr ""
+
+#: includes/admin.php:466 includes/change_email.php:114
+msgid "Change email"
+msgstr ""
+
+#: includes/admin.php:467
+msgid "Check email"
+msgstr ""
+
+#: includes/admin.php:473
+msgid "Send message"
+msgstr ""
+
+#: includes/admin.php:487
+msgid "Send"
+msgstr ""
+
+#: includes/change_email.php:33 includes/register.php:64
+#, php-format
+msgid "%s Checking email address..."
+msgstr ""
+
+#: includes/change_email.php:34 includes/register.php:65
+msgid "Email address seems invalid."
+msgstr ""
+
+#: includes/change_email.php:35 includes/delete_account.php:33
+#: includes/register.php:66 includes/reset_password.php:57
+msgid "Please verify the Captcha."
+msgstr ""
+
+#: includes/change_email.php:36 includes/delete_account.php:34
+#: includes/register.php:67 includes/reset_password.php:58
+msgid "Please fill the required field."
+msgstr ""
+
+#: includes/change_email.php:37 includes/delete_account.php:35
+#: includes/register.php:68 includes/reset_password.php:59
+msgid ""
+"Verification errors occurred. Please check all fields and submit it again."
+msgstr ""
+
+#: includes/change_email.php:38 includes/change_email.php:39
+#: includes/change_email.php:84 includes/change_email.php:216
+#: includes/change_email.php:222 includes/change_email.php:294
+#: includes/change_email.php:313 includes/change_email.php:326
+#: includes/change_email.php:333 includes/change_email.php:394
+#: includes/change_email.php:401 includes/delete_account.php:36
+#: includes/delete_account.php:37 includes/delete_account.php:209
+#: includes/delete_account.php:215 includes/delete_account.php:286
+#: includes/delete_account.php:292 includes/register.php:69
+#: includes/register.php:70 includes/register.php:162 includes/register.php:356
+#: includes/register.php:362 includes/register.php:420
+#: includes/register.php:426 includes/register.php:479
+#: includes/register.php:490 includes/reset_password.php:60
+#: includes/reset_password.php:61 includes/reset_password.php:249
+#: includes/reset_password.php:255 includes/reset_password.php:321
+msgid "Unexpected error occurred, try again."
+msgstr ""
+
+#: includes/change_email.php:47 includes/delete_account.php:45
+#: includes/register.php:80 includes/reset_password.php:71
+msgid "Loading"
+msgstr ""
+
+#: includes/change_email.php:54
+msgid ""
+"Form to change private email address is temporarily disabled, please try "
+"again later."
+msgstr ""
+
+#: includes/change_email.php:75 includes/change_email.php:164
+#: includes/change_email.php:178 includes/change_email.php:245
+#: includes/change_email.php:270 includes/change_email.php:284
+#: includes/change_email.php:303 includes/change_email.php:356
+#: includes/change_email.php:372 includes/delete_account.php:157
+#: includes/delete_account.php:259 includes/register.php:133
+#: includes/register.php:284 includes/register.php:446
+#: includes/register.php:469
+msgid "Server is temporarily unavailable, please try again in a moment."
+msgstr ""
+
+#: includes/change_email.php:80
+#, php-format
+msgid ""
+"Private email address, for your XMPP account %s, has been successfully "
+"changed to %s."
+msgstr ""
+
+#: includes/change_email.php:90
+msgid ""
+"The link to change private email address has expired or is not valid. Please "
+"fill the form and submit it again."
+msgstr ""
+
+#: includes/change_email.php:106
+msgid "New private email"
+msgstr ""
+
+#: includes/change_email.php:130 includes/delete_account.php:134
+#: includes/delete_account.php:231 includes/register.php:215
+#: includes/reset_password.php:158 includes/reset_password.php:271
+msgid "Verification error, try again."
+msgstr ""
+
+#: includes/change_email.php:136 includes/delete_account.php:140
+#: includes/delete_account.php:237 includes/register.php:221
+#: includes/reset_password.php:164 includes/reset_password.php:277
+msgid "All fields are required. Please check the form and submit it again."
+msgstr ""
+
+#: includes/change_email.php:143 includes/delete_account.php:147
+#: includes/delete_account.php:244 includes/register.php:228
+#: includes/reset_password.php:171 includes/reset_password.php:284
+msgid "Captcha validation error, try again."
+msgstr ""
+
+#: includes/change_email.php:150 includes/change_email.php:258
+#: includes/register.php:246
+msgid "Email address seems invalid, change it and try again."
+msgstr ""
+
+#: includes/change_email.php:154 includes/change_email.php:262
+#: includes/register.php:250
+msgid ""
+"Disposable emails addresses are forbidden, please change entered email "
+"address and try again."
+msgstr ""
+
+#: includes/change_email.php:169 includes/delete_account.php:162
+#: includes/delete_account.php:264
+msgid "Invalid login or password, correct them and try again."
+msgstr ""
+
+#: includes/change_email.php:191
+#, php-format
+msgid "Confirm the email address for your %s account"
+msgstr ""
+
+#: includes/change_email.php:192
+#, php-format
+msgid ""
+"Hey %s,<br><br>You have changed the private email address for your XMPP "
+"account %s. To complete the change, please click on the confirmation link:"
+"<br><br>%s<br><br>If you haven't made this change, simply disregard this "
+"email.<br><br>Greetings,<br>%s"
+msgstr ""
+
+#: includes/change_email.php:198
+msgid ""
+"An email has been sent to you to confirm changes. It contains a confirmation "
+"link that you have to click."
+msgstr ""
+
+#: includes/change_email.php:204 includes/delete_account.php:197
+#: includes/reset_password.php:231
+msgid "Failed to send email, try again."
+msgstr ""
+
+#: includes/change_email.php:210 includes/change_email.php:320
+msgid "Selected private email address is already set for this account."
+msgstr ""
+
+#: includes/change_email.php:250 includes/change_email.php:362
+#: includes/register.php:451 includes/reset_password.php:185
+msgid "Invalid login, correct it and try again."
+msgstr ""
+
+#: includes/change_email.php:289
+#, php-format
+msgid ""
+"Private email address, for XMPP account %s, has been successfully deleted."
+msgstr ""
+
+#: includes/change_email.php:308
+#, php-format
+msgid ""
+"Private email address, for XMPP account %s, has been successfully changed to "
+"%s."
+msgstr ""
+
+#: includes/change_email.php:338 includes/change_email.php:407
+#: includes/register.php:495
+msgid "Please enter a login and check again."
+msgstr ""
+
+#: includes/change_email.php:381
+msgid "Private email address has been properly obtained."
+msgstr ""
+
+#: includes/change_email.php:386
+msgid "Private email address hasn't been set for this account."
+msgstr ""
+
+#: includes/delete_account.php:52
+msgid "Form to delete account is temporarily disabled, please try again later."
+msgstr ""
+
+#: includes/delete_account.php:71
+msgid ""
+"If you type here your correct password, your account will be deleted "
+"forever. There is no way to restore them."
+msgstr ""
+
+#: includes/delete_account.php:87
+msgid "Yes, really delete account"
+msgstr ""
+
+#: includes/delete_account.php:99
+msgid ""
+"The link to delete account has expired or is not valid. Please fill the form "
+"and submit it again."
+msgstr ""
+
+#: includes/delete_account.php:103
+msgid ""
+"If you delete your account, it's gone forever. There is no way to restore "
+"them."
+msgstr ""
+
+#: includes/delete_account.php:118
+msgid "Delete account"
+msgstr ""
+
+#: includes/delete_account.php:171 includes/delete_account.php:273
+#: includes/register.php:405 includes/reset_password.php:180
+#: includes/reset_password.php:194 includes/reset_password.php:307
+msgid "Server is temporarily unavailable."
+msgstr ""
+
+#: includes/delete_account.php:182
+#, php-format
+msgid "Delete your account on %s"
+msgstr ""
+
+#: includes/delete_account.php:183
+#, php-format
+msgid ""
+"Hey %s,<br><br>You wanted to delete your XMPP account %s. To complete the "
+"change, please click the following link:<br><br>%s<br><br>If you no longer "
+"want to delete the account, simply disregard this email.<br><br>Greetings,"
+"<br>%s"
+msgstr ""
+
+#: includes/delete_account.php:189
+#, php-format
+msgid ""
+"An email has been sent to you at address %s. It contains a link to a page "
+"where you can finally delete your account."
+msgstr ""
+
+#: includes/delete_account.php:203
+msgid ""
+"Private email address hasn't been set. To delete your account please first "
+"set the private email address or simply delete your account via IM."
+msgstr ""
+
+#: includes/delete_account.php:281
+msgid "Your account has been deleted, goodbye."
+msgstr ""
+
+#: includes/delete_account.php:301
+msgid "The link to delete account has expired or is not valid."
+msgstr ""
+
+#: includes/register.php:55
+#, php-format
+msgid "%s Checking login..."
+msgstr ""
+
+#: includes/register.php:56 includes/register.php:384
+msgid "Login contains illegal characters or it's too short."
+msgstr ""
+
+#: includes/register.php:58 includes/reset_password.php:51
+msgid "Password is too weak."
+msgstr ""
+
+#: includes/register.php:59 includes/reset_password.php:52
+msgid "Password is very weak."
+msgstr ""
+
+#: includes/register.php:60 includes/reset_password.php:53
+msgid "Password is weak."
+msgstr ""
+
+#: includes/register.php:61 includes/reset_password.php:54
+msgid "Password is good."
+msgstr ""
+
+#: includes/register.php:62 includes/reset_password.php:55
+msgid "Password is strong."
+msgstr ""
+
+#: includes/register.php:63 includes/reset_password.php:56
+msgid "Password mismatch with the confirmation."
+msgstr ""
+
+#: includes/register.php:87
+msgid "Registration is temporarily disabled, please try again later."
+msgstr ""
+
+#: includes/register.php:121
+msgid "You can't register another account so quickly. Please try again later."
+msgstr ""
+
+#: includes/register.php:158
+#, php-format
+msgid "Account %s has been successfully activated."
+msgstr ""
+
+#: includes/register.php:170
+msgid ""
+"The link to activate account has expired or is not valid. Please fill the "
+"form and submit it again."
+msgstr ""
+
+#: includes/register.php:187 includes/reset_password.php:107
+msgid "Confirm password"
+msgstr ""
+
+#: includes/register.php:191
+msgid "Private email"
+msgstr ""
+
+#: includes/register.php:199
+msgid "Register"
+msgstr ""
+
+#: includes/register.php:235
+msgid ""
+"Selected login contains illegal characters or it's too short, change it and "
+"try again."
+msgstr ""
+
+#: includes/register.php:239
+msgid "Selected login contains illegal words, change it and try again."
+msgstr ""
+
+#: includes/register.php:257
+msgid "You can't register another account so quickly, please try again later."
+msgstr ""
+
+#: includes/register.php:265 includes/reset_password.php:292
+msgid "Passwords don't match, correct them and try again."
+msgstr ""
+
+#: includes/register.php:299
+#, php-format
+msgid "Confirm your new account on %s"
+msgstr ""
+
+#: includes/register.php:300
+#, php-format
+msgid ""
+"Hey %s,<br><br>You have registered the account %s with this email address. "
+"To complete your registration, please click on the activation link:<br><br>"
+"%s<br><br>If you haven't registered an account, simply disregard this email."
+"<br><br>Greetings,<br>%s"
+msgstr ""
+
+#: includes/register.php:306
+msgid ""
+"An email has been sent to you to confirm registration. It contains an "
+"activation link that you have to click."
+msgstr ""
+
+#: includes/register.php:311
+msgid "Failed to complete registration, please contact with the administrator."
+msgstr ""
+
+#: includes/register.php:318
+#, php-format
+msgid "Account %s has been successfully registered."
+msgstr ""
+
+#: includes/register.php:351
+msgid "Selected login is already registered, change it and try again."
+msgstr ""
+
+#: includes/register.php:388
+msgid "Login contains illegal words."
+msgstr ""
+
+#: includes/register.php:410
+msgid "Selected login is available."
+msgstr ""
+
+#: includes/register.php:415
+msgid "Selected login is already registered."
+msgstr ""
+
+#: includes/register.php:474
+msgid "The message was sent correctly."
+msgstr ""
+
+#: includes/register.php:484
+msgid "Please enter a message body and check again."
+msgstr ""
+
+#: includes/reset_password.php:78
+msgid "Form to reset password is temporarily disabled, please try again later."
+msgstr ""
+
+#: includes/reset_password.php:116
+msgid "Set new password"
+msgstr ""
+
+#: includes/reset_password.php:128
+msgid ""
+"The link to reset password has expired or is not valid. Please fill the form "
+"and submit it again."
+msgstr ""
+
+#: includes/reset_password.php:142
+msgid "Reset password"
+msgstr ""
+
+#: includes/reset_password.php:216
+#, php-format
+msgid "Password reset for your %s account"
+msgstr ""
+
+#: includes/reset_password.php:217
+#, php-format
+msgid ""
+"Hey %s,<br><br>Someone requested to change the password for your XMPP "
+"account %s. To complete the change, please click the following link:<br><br>"
+"%s<br><br>If you haven't made this change, simply disregard this email."
+"<br><br>Greetings,<br>%s"
+msgstr ""
+
+#: includes/reset_password.php:223
+#, php-format
+msgid ""
+"An email has been sent to you at address %s. It contains a link to a page "
+"where you can reset your password."
+msgstr ""
+
+#: includes/reset_password.php:237
+msgid "Verification limit has been exceeded, please try again later."
+msgstr ""
+
+#: includes/reset_password.php:243
+msgid ""
+"Private email address hasn't been set. To reset your password please contact "
+"with the administrator."
+msgstr ""
+
+#: includes/reset_password.php:316
+msgid "The password for your account was successfully changed."
+msgstr ""
+
+#: includes/reset_password.php:330
+msgid "The link to reset password has expired or is not valid."
+msgstr ""
